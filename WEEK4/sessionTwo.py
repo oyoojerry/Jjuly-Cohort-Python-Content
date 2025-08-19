@@ -9,6 +9,13 @@
 
 # Reading content from a file
 
-file = open("./WEEK4/jsMummies_Contacts.pdf", "r")
-content = file.readline()
-print(content)
+# file = open("./WEEK4/jsMummies_Contacts.pdf", "r")
+# content = file.readline()
+# print(content)
+
+
+
+# Reading image content from a file
+image_file = open("./WEEK4/kafka.png", "rb")
+image_data = image_file.read()
+print(image_data[:100])
